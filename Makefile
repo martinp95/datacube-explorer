@@ -92,6 +92,9 @@ up: ## Start server using Docker
 
 up-d: ## Start server using Docker in background
 	docker-compose up -d
+	
+down: ## Stop server using docker
+	docker-compose down
 
 build: ## Build the dev Docker image
 	docker-compose build
