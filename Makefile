@@ -93,6 +93,8 @@ up: ## Start server using Docker
 up-d: ## Start server using Docker in background
 	docker-compose up -d
 	
+setup: build up-d schema index ## Run a full local setup
+	
 down: ## Stop server using docker
 	docker-compose down
 
