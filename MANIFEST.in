@@ -1,6 +1,0 @@
-include cubedash/_version.py
-graft cubedash/data
-graft cubedash/static
-graft cubedash/templates
-graft cubedash/themes
-graft cubedash/summary/roles
